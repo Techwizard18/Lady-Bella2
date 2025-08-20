@@ -76,7 +76,7 @@ async function viewOnceCommand(sock, chatId, message) {
                 await sock.sendMessage(chatId, { 
                     image: buffer,
                     caption: `*VOST-BOT*\n\n*ViewOnce:* Image 📸\n${caption ? `*Caption:* ${caption}` : ''}`,
-                    ...channelInfo
+                    
                 });
                 console.log('_View once image processed successfully_');
                 return;
@@ -84,7 +84,7 @@ async function viewOnceCommand(sock, chatId, message) {
                 console.error('🛑 Error downloading image:', err);
                 await sock.sendMessage(chatId, { 
                     text: '🛑 Failed to process view once image! Error: ' + err.message,
-                    ...channelInfo
+                    
                 });
                 return;
             }
