@@ -58,7 +58,7 @@ async function pingCommand(sock, chatId, message) {
         await sock.sendMessage(chatId, { 
             text: botInfo, 
             quoted: message,
-            contextInfo: {
+            /*contextInfo: {
                 forwardingScore: 1,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
@@ -66,7 +66,7 @@ async function pingCommand(sock, chatId, message) {
                     newsletterName: '𝗟𝗮𝗱𝘆_𝗕𝗲𝗹𝗹𝗮🎀',
                     serverMessageId: -1
                 }
-            }
+            }*/
         });
 
         // Delete the initial ping message
@@ -84,7 +84,7 @@ async function pingCommand(sock, chatId, message) {
         console.error('Error in ping command:', error);
         await sock.sendMessage(chatId, { 
             text: '❌ Failed to get bot status',
-            contextInfo: {
+            /*contextInfo: {
                 forwardingScore: 1,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
@@ -92,7 +92,7 @@ async function pingCommand(sock, chatId, message) {
                     newsletterName: '𝗟𝗮𝗱𝘆_𝗕𝗲𝗹𝗹𝗮🎀',
                     serverMessageId: -1
                 }
-            }
+            }*/
         });
     }
 }
