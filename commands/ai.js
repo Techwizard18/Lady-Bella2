@@ -78,20 +78,20 @@ async function aiCommand(sock, chatId, message) {
             console.error('API Error:', error);
             await sock.sendMessage(chatId, {
                 text: "❌ Failed to get response. Please try again later.",
-                contextInfo: {
+                /*&contextInfo: {
                     mentionedJid: [message.key.participant || message.key.remoteJid],
                     quotedMessage: message.message
-                }
+                }*/
             });
         }
     } catch (error) {
         console.error('AI Command Error:', error);
         await sock.sendMessage(chatId, {
             text: "❌ An error occurred. Please try again later.",
-            contextInfo: {
+            /*contextInfo: {
                 mentionedJid: [message.key.participant || message.key.remoteJid],
                 quotedMessage: message.message
-            }
+            }*/
         });
     }
 }
