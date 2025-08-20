@@ -20,7 +20,7 @@ async function aliveCommand(sock, chatId) {
     try {
         const message = `
 ╭━━━━━━━━━━━━━━━━━━━╮
-┃        𝗟𝗮𝗱𝘆_𝗕𝗲𝗹𝗹𝗮🎀
+┃        VOST-BOT
 ╰━━━━━━━━━━━━━━━━━━━╯
 ┌───────────────────┐
 │  🔹 *Status*: Online
@@ -40,7 +40,7 @@ async function aliveCommand(sock, chatId) {
         const imagePath = await downloadImage(imageUrl);
         
         const messageOptions = {
-            contextInfo: {
+            /*contextInfo: {
                 forwardingScore: 999,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
@@ -48,7 +48,7 @@ async function aliveCommand(sock, chatId) {
                     newsletterName: '𝗟𝗮𝗱𝘆_𝗕𝗲𝗹𝗹𝗮🎀',
                     serverMessageId: -1
                 }
-            }
+            }*/
         };
 
         if (imagePath) {
