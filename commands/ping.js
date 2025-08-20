@@ -39,7 +39,7 @@ async function pingCommand(sock, chatId, message) {
 
         const botInfo = `
 ╭────────────────────────
-│     𝗟𝗮𝗱𝘆_𝗕𝗲𝗹𝗹𝗮🎀  STATUS
+│     VOST-BOT  STATUS
 ├────────────────────────
 │  🚀 Response: ${ping.toString().padEnd(6)} ms
 │  ⏳ Uptime:   ${uptime.padEnd(14)}
@@ -51,7 +51,7 @@ async function pingCommand(sock, chatId, message) {
 ╰──────────────────────────────
 ╭──────────────────────────────
 │  🔗 GitHub:   https://github.com/SNOWBIRD0074/LADY_BELLA/tree/main
-│  📢 Channel:  ${settings.channelLink || 'whatsapp.com/channel/https://whatsapp.com/channel/0029Vb5nSebFy722d2NEeU3C'}
+│  📢 Channel:  ${settings.channelLink || 'https://whatsapp.com/channel/0029Vb9zS0hFi8xU2eEHmM3H'}
 ╰──────────────────────────────
 `.trim();
 
