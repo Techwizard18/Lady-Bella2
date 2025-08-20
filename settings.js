@@ -1,5 +1,5 @@
 const settings = {
-  packname: 'lady bella',
+  packname: 'Vosty',
   author: 'Stephen',
   botName: 'VOST-BOT',
   botOwner: 'Stephen', // Your name
