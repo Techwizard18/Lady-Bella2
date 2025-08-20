@@ -70,7 +70,7 @@ async function tiktokCommand(sock, chatId, message) {
                         await sock.sendMessage(chatId, {
                             video: { url: videoUrl },
                             mimetype: "video/mp4",
-                            caption: "𝗟𝗮𝗱𝘆_𝗕𝗲𝗹𝗹𝗮🎀"
+                            caption: "VOST-BOT"
                         }, { quoted: message });
                         return;
                     }
@@ -96,12 +96,12 @@ async function tiktokCommand(sock, chatId, message) {
                     await sock.sendMessage(chatId, {
                         video: { url: mediaUrl },
                         mimetype: "video/mp4",
-                        caption: "𝗟𝗮𝗱𝘆_𝗕𝗲𝗹𝗹𝗮🎀"
+                        caption: "VOST-BOT"
                     }, { quoted: message });
                 } else {
                     await sock.sendMessage(chatId, {
                         image: { url: mediaUrl },
-                        caption: "𝗟𝗮𝗱𝘆_𝗕𝗲𝗹𝗹𝗮🎀"
+                        caption: "VOST-BOT"
                     }, { quoted: message });
                 }
             }
