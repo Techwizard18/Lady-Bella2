@@ -74,13 +74,11 @@
 ## Fᴏʟʟᴏᴡ ᴏᴜʀ ᴄʜᴀɴɴᴇʟs ғᴏʀ ᴜᴘᴅᴀᴛᴇs
 
 
- <a href="https://whatsapp.com/channel/0029Vb5nSebFy722d2NEeU3C"><img title="OUR-WHATSAPP CHANNEL" src="https://img.shields.io/badge/OUR-WHATSAPP CHANNEL-h?color=green&style=for-the-badge&logo=whatsapp" width="280" height="38.45"/></a></p>
+ <a href="https://whatsapp.com/channel/0029Vb6IVKB5a23uRnMxKt0m"><img title="OUR-WHATSAPP CHANNEL" src="https://img.shields.io/badge/OUR-WHATSAPP CHANNEL-h?color=green&style=for-the-badge&logo=whatsapp" width="280" height="38.45"/></a></p>
  
  ---
+
  
- <a href="https://t.me/cyberdevsofficial"><img title="OUR-TELEGRAM CHANNEL" src="https://img.shields.io/badge/OUR-TELEGRAM CHANNEL-h?color=blue&style=for-the-badge&logo=telegram" width="280" height="38.45"/></a></p>
-
-
   </a>
 </p>
 <!-- Glowing Footer -->
